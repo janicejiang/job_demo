@@ -1,9 +1,11 @@
 module Admin::JobsHelper
   def render_job_status(job)
     if job.is_hidden
-      "(Hidden)"
+      # <span class="fa fa-lock"></span>
+      content_tag(:span, "", :class => "fa fa-lock")
     else
-      "(Public)"
+      # <span class="fa fa-globe"></span>
+      content_tag(:span, "", :class => "fa fa-globe")
     end
   end
 end
