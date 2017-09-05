@@ -1,24 +1,16 @@
-# README
+在线演示 https://zhaopin.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![](http://oji7id3lo.bkt.clouddn.com/zhaopin.gif)
 
-Things you may want to cover:
+## 功能概述
+- 实作jobs的CRUD
+- 实作admin/jobs的CRUD
+- 按薪资排序
+- 隐藏公开职缺
+- 上传简历
+- 下载简历
+- 等
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## admin帐号
+Email: janicejiang.d@gmail.com
+Password: 123456
